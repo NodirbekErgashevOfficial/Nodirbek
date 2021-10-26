@@ -1,7 +1,10 @@
+
+/* .site-header */
+
 .site-header{
     background-color: #fff;
 }
-
+/* Sitenav */
 .sitenav-list{
     list-style: none;
 }
@@ -16,6 +19,8 @@
     color: #000;
 }
 
+
+/* main */
 .main-link{
     font-size: 13px;
     line-height: 15px;
@@ -56,6 +61,9 @@
      letter-spacing: 0.5px;
 }
 
+
+/* Feature */
+
 .feature{
     width: 340px;
 }
@@ -85,6 +93,9 @@
     letter-spacing: 0.5px;
 }
 
+/* Promo */
+
+
 .promo{
     background-color: #252420;
     color: #fff;
@@ -110,6 +121,9 @@
     height: 440px;
     object-fit: cover;
 }
+
+/* Footer */
+
 
 .site-footer{
     background-color: #f8f8f8;
