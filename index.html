@@ -4,41 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title> Akademnashr</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;700&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    
+     <!-- Style Link -->
+     <link rel="stylesheet" href="css/normalize">
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>   
     
     <!-- Site Header -->    
     <header class="site-header" >
-        <a href="index.html">
-            <img src="img/logo.svg" alt=" AKADEMNASSHR LOGO" width="227px" height="60px" >
-        </a>      
+        <div class="site-header-container container">
+            <a class="logo-link" href="index.html">
+                <img src="img/logo.svg" alt=" AKADEMNASSHR LOGO" width="227px" height="60px" >
+            </a>
             
-            <nav>
-                <ul class="sitenav-list">
-                    <li><a class="sistenav-link" href="#">Bosh sahifa</a></li>
-                    <li><a class="sistenav-link" href="#">Kitoblar</a></li>
-                    <li><a class="sistenav-link" href="#">Aksiyalar</a></li>
-                    <li><a class="sistenav-link" href="#">Kontaktlar</a></li>
-                </ul>
-            </nav>
-        <a class="main-link" href="#"> Ro'yhatga o'tish</a>
+                <nav>
+                    <ul class="sitenav-list">
+                        <li class="sitenav-item"><a class="sistenav-link" href="#">Bosh sahifa</a></li>
+                        <li class="sitenav-item"><a class="sistenav-link" href="#">Kitoblar</a></li>
+                        <li class="sitenav-item"><a class="sistenav-link" href="#">Aksiyalar</a></li>
+                        <li class="sitenav-item"><a class="sistenav-link" href="#">Kontaktlar</a></li>
+                    </ul>
+                </nav>
+            <a class="main-link" href="#"> Ro'yhatga o'tish</a>
+        </div>
     </header>
     
     
     <main>
         <!-- Hero -->
         <section class="hero">          
-            <div class="hero-content">
-                <hr class="orange-line">
-                <h2 class="hero-heading">Pythonda dasturlash  asoslari</h2>
-                <p class="hero-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ipsa accusamus magni cumque veniam enim eius itaque eum illo, nulla in molestias vitae quos eveniet aspernatur distinctio cupiditate molestiae facere. Optio ad, quasi iste fuga blanditiis aperiam. Sunt rem asperiores iusto. Dolorem magni obcaecati at dicta recusandae impedit tempora similique?</p>
-                <a class="main-link" href="#">Buyurtma Berish</a>
-                <hr>
-            </div>
-            <img class="hero-img" src="img/python-book@2x.jpg" alt="Qp'lda ushlab turilgan pythonda dasturlash asoslari kitobi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x " >
-        </section>
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <hr class="orange-line">
+                    <h2 class="hero-heading">Pythonda dasturlash  asoslari</h2>
+                    <p class="hero-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ipsa accusamus magni cumque veniam enim eius itaque eum illo, nulla in molestias vitae quos eveniet aspernatur distinctio cupiditate molestiae facere. Optio ad, quasi iste fuga blanditiis aperiam. Sunt rem asperiores iusto. Dolorem magni obcaecati at dicta recusandae impedit tempora similique?</p>
+                    <a class="main-link" href="#">Buyurtma Berish</a>
+                    <hr>
+                </div>
+                <img class="hero-img" src="img/python-book@2x.jpg" alt="Qp'lda ushlab turilgan pythonda dasturlash asoslari kitobi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x " >
+            </div>     
+         </section>
         
         <!-- FEATURES -->
 
